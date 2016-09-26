@@ -8,8 +8,8 @@ namespace FacadeDemo
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
+            EconomicsFacade.PaySalary(1);
         }
     }
 }

@@ -14,7 +14,7 @@ namespace FacadeDemo
             var emp = manager.GetEmplyee(empId);
             var salary = emp.GetMonthlySalary();
             var receipt = manager.ProcessTransaction(emp, salary);
-            return receipt.IsValid();
+            return receipt.IsValid;
         }
     }
 }
